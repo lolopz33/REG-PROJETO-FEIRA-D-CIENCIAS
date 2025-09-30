@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contato – EcoEconomia</title>
-  <meta name="description" content="Fale com a equipe do blog EcoEconomia." />
+  <title>Sobre – EcoEconomia</title>
+  <meta name="description" content="Quem somos e por que escrevemos sobre economia ecológica." />
   <meta name="theme-color" content="#166534" />
-  <meta property="og:title" content="Contato – EcoEconomia" />
-  <meta property="og:description" content="Fale com a equipe do blog EcoEconomia." />
+  <meta property="og:title" content="Sobre – EcoEconomia" />
+  <meta property="og:description" content="Quem somos e por que escrevemos sobre economia ecológica." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop" />
-  <link rel="icon" href="/assets/favicon.svg" />
+  <link rel="icon" href="assets/favicon.svg" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { theme: { extend: { colors: { brand: {DEFAULT:'#16a34a',dark:'#166534'} } } } };
@@ -20,13 +20,13 @@
 <body class="bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100">
   <header class="sticky top-0 z-40 backdrop-blur bg-white/80 dark:bg-neutral-900/80 border-b border-neutral-200 dark:border-neutral-800">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-2 font-semibold text-lg">
+      <a href="" class="flex items-center gap-2 font-semibold text-lg">
         <span class="text-brand-dark">🌿</span><span>EcoEconomia</span>
       </a>
       <nav class="hidden md:flex items-center gap-6 text-sm">
-        <a href="/" class="hover:text-brand-dark">Início</a>
-        <a href="/about.html" class="hover:text-brand-dark">Sobre</a>
-        <a href="/contact.html" class="hover:text-brand-dark">Contato</a>
+        <a href="" class="hover:text-brand-dark">Início</a>
+        <a href="about.html" class="hover:text-brand-dark">Sobre</a>
+        <a href="contact.html" class="hover:text-brand-dark">Contato</a>
       </nav>
       <div class="flex items-center gap-3">
         <button id="themeToggle" class="text-sm border px-3 py-1.5 rounded-xl hover:bg-neutral-50 dark:hover:bg-neutral-800">Modo</button>
@@ -35,32 +35,20 @@
     </div>
     <div id="mobileMenu" class="md:hidden hidden border-t border-neutral-200 dark:border-neutral-800">
       <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-2">
-        <a href="/" class="py-1">Início</a>
-        <a href="/about.html" class="py-1">Sobre</a>
-        <a href="/contact.html" class="py-1">Contato</a>
+        <a href="" class="py-1">Início</a>
+        <a href="about.html" class="py-1">Sobre</a>
+        <a href="contact.html" class="py-1">Contato</a>
       </div>
     </div>
   </header>
 
 <main class="max-w-3xl mx-auto px-4 py-12">
-  <h1 class="text-3xl font-bold mb-4">Contato</h1>
-  <p class="text-neutral-700 dark:text-neutral-300">Tem uma pauta, dúvida ou quer colaborar? Envie uma mensagem:</p>
-  <form class="mt-6 space-y-4" name="contact" method="post" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact"/>
-    <div>
-      <label class="block text-sm mb-1">Nome</label>
-      <input name="name" class="w-full border rounded-xl px-3 py-2 bg-white dark:bg-neutral-900" required />
-    </div>
-    <div>
-      <label class="block text-sm mb-1">Email</label>
-      <input type="email" name="email" class="w-full border rounded-xl px-3 py-2 bg-white dark:bg-neutral-900" required />
-    </div>
-    <div>
-      <label class="block text-sm mb-1">Mensagem</label>
-      <textarea name="message" class="w-full border rounded-xl px-3 py-2 bg-white dark:bg-neutral-900 h-36" required></textarea>
-    </div>
-    <button class="bg-brand text-white px-4 py-2 rounded-xl">Enviar</button>
-  </form>
+  <h1 class="text-3xl font-bold mb-4">Sobre</h1>
+  <p class="leading-relaxed text-neutral-700 dark:text-neutral-300">Somos um blog independente focado em economia ecológica: uma abordagem que integra ecologia, economia e justiça social para garantir prosperidade dentro dos limites planetários.</p>
+  <div class="mt-6 grid sm:grid-cols-2 gap-4">
+    <img class="rounded-2xl object-cover h-48 w-full" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop" alt="Floresta">
+    <img class="rounded-2xl object-cover h-48 w-full" src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?q=80&w=1200&auto=format&fit=crop" alt="Biodiversidade">
+  </div>
 </main>
   <footer class="mt-16 border-t border-neutral-200 dark:border-neutral-800">
     <div class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8 text-sm">
@@ -71,9 +59,9 @@
       <div>
         <div class="font-semibold mb-2">Navegação</div>
         <ul class="space-y-1">
-          <li><a href="/" class="hover:text-brand-dark">Início</a></li>
-          <li><a href="/about.html" class="hover:text-brand-dark">Sobre</a></li>
-          <li><a href="/contact.html" class="hover:text-brand-dark">Contato</a></li>
+          <li><a href="" class="hover:text-brand-dark">Início</a></li>
+          <li><a href="about.html" class="hover:text-brand-dark">Sobre</a></li>
+          <li><a href="contact.html" class="hover:text-brand-dark">Contato</a></li>
         </ul>
       </div>
       <div>
@@ -84,7 +72,7 @@
         </form>
       </div>
     </div>
-    <div class="py-6 text-center text-xs text-neutral-500 dark:text-neutral-400">© 2025 REG. Conteúdo licenciado CC BY 4.0.</div>
+    <div class="py-6 text-center text-xs text-neutral-500 dark:text-neutral-400">© 2025 EcoEconomia. Conteúdo licenciado CC BY 4.0.</div>
   </footer>
   <script>
     const btn = document.getElementById('themeToggle');
