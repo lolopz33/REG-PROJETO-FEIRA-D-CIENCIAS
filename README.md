@@ -1,5 +1,5 @@
 
-# EcoEconomia — Blog estático
+# REG - Blog
 
 Site estático em HTML + Tailwind CDN (sem build). Pronto para deploy no Vercel.
 
