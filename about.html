@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sobre – EcoEconomia</title>
-  <meta name="description" content="Quem somos e por que escrevemos sobre economia ecológica." />
+  <title>Contato – EcoEconomia</title>
+  <meta name="description" content="Fale com a equipe do blog EcoEconomia." />
   <meta name="theme-color" content="#166534" />
-  <meta property="og:title" content="Sobre – EcoEconomia" />
-  <meta property="og:description" content="Quem somos e por que escrevemos sobre economia ecológica." />
+  <meta property="og:title" content="Contato – EcoEconomia" />
+  <meta property="og:description" content="Fale com a equipe do blog EcoEconomia." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop" />
   <link rel="icon" href="/assets/favicon.svg" />
@@ -43,12 +43,24 @@
   </header>
 
 <main class="max-w-3xl mx-auto px-4 py-12">
-  <h1 class="text-3xl font-bold mb-4">Sobre</h1>
-  <p class="leading-relaxed text-neutral-700 dark:text-neutral-300">Somos um blog independente focado em economia ecológica: uma abordagem que integra ecologia, economia e justiça social para garantir prosperidade dentro dos limites planetários.</p>
-  <div class="mt-6 grid sm:grid-cols-2 gap-4">
-    <img class="rounded-2xl object-cover h-48 w-full" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop" alt="Floresta">
-    <img class="rounded-2xl object-cover h-48 w-full" src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?q=80&w=1200&auto=format&fit=crop" alt="Biodiversidade">
-  </div>
+  <h1 class="text-3xl font-bold mb-4">Contato</h1>
+  <p class="text-neutral-700 dark:text-neutral-300">Tem uma pauta, dúvida ou quer colaborar? Envie uma mensagem:</p>
+  <form class="mt-6 space-y-4" name="contact" method="post" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact"/>
+    <div>
+      <label class="block text-sm mb-1">Nome</label>
+      <input name="name" class="w-full border rounded-xl px-3 py-2 bg-white dark:bg-neutral-900" required />
+    </div>
+    <div>
+      <label class="block text-sm mb-1">Email</label>
+      <input type="email" name="email" class="w-full border rounded-xl px-3 py-2 bg-white dark:bg-neutral-900" required />
+    </div>
+    <div>
+      <label class="block text-sm mb-1">Mensagem</label>
+      <textarea name="message" class="w-full border rounded-xl px-3 py-2 bg-white dark:bg-neutral-900 h-36" required></textarea>
+    </div>
+    <button class="bg-brand text-white px-4 py-2 rounded-xl">Enviar</button>
+  </form>
 </main>
   <footer class="mt-16 border-t border-neutral-200 dark:border-neutral-800">
     <div class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8 text-sm">
@@ -72,7 +84,7 @@
         </form>
       </div>
     </div>
-    <div class="py-6 text-center text-xs text-neutral-500 dark:text-neutral-400">© 2025 EcoEconomia. Conteúdo licenciado CC BY 4.0.</div>
+    <div class="py-6 text-center text-xs text-neutral-500 dark:text-neutral-400">© 2025 REG. Conteúdo licenciado CC BY 4.0.</div>
   </footer>
   <script>
     const btn = document.getElementById('themeToggle');
