@@ -1,34 +1,149 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html class="scroll-smooth" lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Energias Renováveis</title>
-  <link rel="stylesheet" href="../styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Energias Renováveis - REG</title>
+<meta content="Conheça as principais fontes de energias renováveis, seus benefícios, desafios e impactos positivos no meio ambiente e na economia." name="description"/>
+<meta content="#166534" name="theme-color"/>
+<meta content="REG – Energias Renováveis" property="og:title"/>
+<meta content="Conheça as principais fontes de energias renováveis, seus benefícios, desafios e impactos positivos no meio ambiente e na economia." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&amp;w=1200&amp;auto=format&amp;fit=crop" property="og:image"/>
+<link href="../assets/favicon.svg" rel="icon"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: { colors: { brand: {DEFAULT:'#16a34a',dark:'#166534'} } } } };
+</script>
 </head>
-<body>
-  <header>
-    <h1>Energias Renováveis</h1>
-    <a href="../index.html">Voltar</a>
-  </header>
-  <main>
-    <img src="../images/energias-renovaveis.jpg" alt="Energias Renováveis" style="max-width:100%;height:auto;">
-    <section>
-      <h2>Resumo</h2>
-      <p>As energias renováveis — solar, eólica, hidrelétrica e biomassa — são alternativas limpas e inesgotáveis que reduzem a emissão de poluentes e aumentam a segurança energética.</p>
-    </section>
-    <section>
-      <h2>Benefícios</h2>
-      <ul>
-        <li>Reduzem a dependência de combustíveis fósseis.</li>
-        <li>Baixa emissão de gases de efeito estufa.</li>
-        <li>Estimulam a inovação e novos empregos verdes.</li>
-      </ul>
-    </section>
-    <footer>
-      <p>Fonte: Agência Internacional de Energia Renovável (IRENA)</p>
-    </footer>
-  </main>
+<body class="bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100">
+
+<header class="sticky top-0 z-40 backdrop-blur bg-white/80 dark:bg-neutral-900/80 border-b border-neutral-200 dark:border-neutral-800">
+<div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+<a class="flex items-center gap-2 font-semibold text-lg" href="../index.html">
+<span class="text-brand-dark">🌿</span><span>REG</span>
+</a>
+<nav class="hidden md:flex items-center gap-6 text-sm">
+<a class="hover:text-brand-dark" href="../index.html">Início</a>
+<a class="hover:text-brand-dark" href="../about.html">Sobre</a>
+<a class="hover:text-brand-dark" href="../contact.html">Contato</a>
+</nav>
+<div class="flex items-center gap-3">
+<button class="text-sm border px-3 py-1.5 rounded-xl hover:bg-neutral-50 dark:hover:bg-neutral-800" id="themeToggle">Modo</button>
+<button class="md:hidden text-sm border px-3 py-1.5 rounded-xl" id="menuBtn">Menu</button>
+</div>
+</div>
+<div class="md:hidden hidden border-t border-neutral-200 dark:border-neutral-800" id="mobileMenu">
+<div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-2">
+<a class="py-1" href="../index.html">Início</a>
+<a class="py-1" href="../about.html">Sobre</a>
+<a class="py-1" href="../contact.html">Contato</a>
+</div>
+</div>
+</header>
+
+<main>
+<section class="relative">
+<img alt="Energia solar e eólica" class="w-full h-[52vh] object-cover" src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&amp;w=2400&amp;auto=format&amp;fit=crop"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-0 right-0">
+<div class="max-w-6xl mx-auto px-4">
+<div class="max-w-2xl text-white">
+<span class="inline-block mb-2 text-xs tracking-widest uppercase">Energia</span>
+<h1 class="text-3xl md:text-5xl font-bold leading-tight">Energias Renováveis: alternativas limpas e sustentáveis</h1>
+<p class="mt-3 text-neutral-100">Descubra como fontes de energia solar, eólica, hidrelétrica e biomassa podem transformar nosso futuro energético.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-10 space-y-8">
+
+<!-- Resumo -->
+<div class="bg-white dark:bg-neutral-900 rounded-2xl p-6 border border-neutral-200 dark:border-neutral-800">
+<h2 class="text-xl font-semibold mb-4">Resumo</h2>
+<p>As energias renováveis são fontes limpas e inesgotáveis, como solar, eólica, hidrelétrica e biomassa. Elas reduzem a emissão de gases de efeito estufa, diminuem a dependência de combustíveis fósseis e promovem segurança energética, além de estimular inovação e gerar empregos verdes.</p>
+</div>
+
+<!-- Benefícios -->
+<div class="bg-white dark:bg-neutral-900 rounded-2xl p-6 border border-neutral-200 dark:border-neutral-800">
+<h2 class="text-xl font-semibold mb-4">Benefícios</h2>
+<ul class="list-disc list-inside space-y-2">
+<li>Redução da dependência de combustíveis fósseis e diversificação da matriz energética.</li>
+<li>Baixa emissão de gases de efeito estufa e mitigação das mudanças climáticas.</li>
+<li>Criação de empregos verdes e incentivo à inovação tecnológica.</li>
+<li>Energia sustentável e acessível, promovendo desenvolvimento econômico de longo prazo.</li>
+<li>Contribuição para cidades mais limpas e melhoria da qualidade de vida.</li>
+</ul>
+</div>
+
+<!-- Desafios -->
+<div class="bg-white dark:bg-neutral-900 rounded-2xl p-6 border border-neutral-200 dark:border-neutral-800">
+<h2 class="text-xl font-semibold mb-4">Desafios e Considerações</h2>
+<ul class="list-disc list-inside space-y-2">
+<li>Investimento inicial elevado, especialmente em infraestrutura e equipamentos.</li>
+<li>Intermitência em algumas fontes, como solar e eólica, exigindo armazenamento e integração à rede.</li>
+<li>Planejamento urbano e políticas públicas alinhadas são fundamentais para expansão sustentável.</li>
+<li>Educação e conscientização para adoção e uso eficiente das energias renováveis.</li>
+</ul>
+</div>
+
+<!-- Fontes -->
+<div class="bg-white dark:bg-neutral-900 rounded-2xl p-6 border border-neutral-200 dark:border-neutral-800">
+<h2 class="text-xl font-semibold mb-4">Fontes e Referências</h2>
+<ul class="list-disc list-inside space-y-2">
+<li><a href="https://www.irena.org" target="_blank" class="text-brand-dark hover:underline">IRENA – Agência Internacional de Energia Renovável</a></li>
+<li><a href="https://www.iea.org/topics/renewables" target="_blank" class="text-brand-dark hover:underline">IEA – International Energy Agency</a></li>
+<li><a href="https://www.nationalgeographic.com/environment/article/renewable-energy" target="_blank" class="text-brand-dark hover:underline">National Geographic – Energias Renováveis</a></li>
+<li><a href="https://www.un.org/en/climatechange/what-you-can-do/renewable-energy" target="_blank" class="text-brand-dark hover:underline">ONU – Energias Renováveis</a></li>
+</ul>
+</div>
+
+</section>
+</main>
+
+<footer class="mt-16 border-t border-neutral-200 dark:border-neutral-800">
+<div class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8 text-sm">
+<div>
+<div class="font-semibold mb-2">REG</div>
+<p class="text-neutral-600 dark:text-neutral-400">Blog sobre economia ecológica, energias renováveis e políticas públicas sustentáveis.</p>
+</div>
+<div>
+<div class="font-semibold mb-2">Navegação</div>
+<ul class="space-y-1">
+<li><a class="hover:text-brand-dark" href="../index.html">Início</a></li>
+<li><a class="hover:text-brand-dark" href="../about.html">Sobre</a></li>
+<li><a class="hover:text-brand-dark" href="../contact.html">Contato</a></li>
+</ul>
+</div>
+<div>
+<div class="font-semibold mb-2">Assine</div>
+<form action="#" class="flex gap-2">
+<input class="w-full border rounded-xl px-3 py-2 bg-white dark:bg-neutral-900" placeholder="seu@email.com" type="email"/>
+<button class="bg-brand text-white px-4 py-2 rounded-xl">OK</button>
+</form>
+</div>
+</div>
+<div class="py-6 text-center text-xs text-neutral-500 dark:text-neutral-400">© 2025 EcoEconomia. Conteúdo licenciado CC BY 4.0.</div>
+</footer>
+
+<script>
+const btn = document.getElementById('themeToggle');
+const mm = document.getElementById('mobileMenu');
+const mb = document.getElementById('menuBtn');
+const root = document.documentElement;
+const saved = localStorage.getItem('theme');
+if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  root.classList.add('dark');
+  document.body.classList.add('bg-neutral-50','dark:bg-neutral-950','text-neutral-900','dark:text-neutral-100');
+}
+btn?.addEventListener('click', () => {
+  root.classList.toggle('dark');
+  const isDark = root.classList.contains('dark');
+  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+});
+mb?.addEventListener('click', () => mm.classList.toggle('hidden'));
+</script>
+
 </body>
 </html>
