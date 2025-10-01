@@ -1,34 +1,149 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html class="scroll-smooth" lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cidades Sustentáveis e Conceitos Correlatos</title>
-  <link rel="stylesheet" href="../styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Cidades Sustentáveis - REG</title>
+<meta content="Entenda o conceito de cidades sustentáveis, suas estratégias, benefícios e exemplos globais de sucesso." name="description"/>
+<meta content="#166534" name="theme-color"/>
+<meta content="REG – Cidades Sustentáveis" property="og:title"/>
+<meta content="Entenda o conceito de cidades sustentáveis, suas estratégias, benefícios e exemplos globais de sucesso." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://images.unsplash.com/photo-1581090700227-4c4f50b5d2b5?q=80&amp;w=1200&amp;auto=format&amp;fit=crop" property="og:image"/>
+<link href="../assets/favicon.svg" rel="icon"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: { colors: { brand: {DEFAULT:'#16a34a',dark:'#166534'} } } } };
+</script>
 </head>
-<body>
-  <header>
-    <h1>Cidades Sustentáveis e Conceitos Correlatos</h1>
-    <a href="../index.html">Voltar</a>
-  </header>
-  <main>
-    <img src="../images/cidade-sustentavel.jpg" alt="Cidade Sustentável" style="max-width:100%;height:auto;">
-    <section>
-      <h2>Resumo</h2>
-      <p>Com mais da metade da população mundial em áreas urbanas, cresce a necessidade de soluções sustentáveis para enfrentar pobreza, mudanças climáticas, mobilidade e qualidade de vida. O conceito de cidades sustentáveis reúne propostas que integram ecologia, inclusão social e inovação tecnológica.</p>
-    </section>
-    <section>
-      <h2>Principais pontos</h2>
-      <ul>
-        <li>ODS 11 da Agenda 2030 foca em cidades inclusivas e resilientes.</li>
-        <li>Necessidade de governança participativa e investimento em infraestrutura verde.</li>
-        <li>Integração entre desenvolvimento econômico e preservação ambiental.</li>
-      </ul>
-    </section>
-    <footer>
-      <p>Fonte: Araújo & Pessoa – “Cidades Sustentáveis e Conceitos Correlatos” (IFRN, 2025)</p>
-    </footer>
-  </main>
+<body class="bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100">
+
+<header class="sticky top-0 z-40 backdrop-blur bg-white/80 dark:bg-neutral-900/80 border-b border-neutral-200 dark:border-neutral-800">
+<div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+<a class="flex items-center gap-2 font-semibold text-lg" href="../index.html">
+<span class="text-brand-dark">🌿</span><span>REG</span>
+</a>
+<nav class="hidden md:flex items-center gap-6 text-sm">
+<a class="hover:text-brand-dark" href="../index.html">Início</a>
+<a class="hover:text-brand-dark" href="../about.html">Sobre</a>
+<a class="hover:text-brand-dark" href="../contact.html">Contato</a>
+</nav>
+<div class="flex items-center gap-3">
+<button class="text-sm border px-3 py-1.5 rounded-xl hover:bg-neutral-50 dark:hover:bg-neutral-800" id="themeToggle">Modo</button>
+<button class="md:hidden text-sm border px-3 py-1.5 rounded-xl" id="menuBtn">Menu</button>
+</div>
+</div>
+<div class="md:hidden hidden border-t border-neutral-200 dark:border-neutral-800" id="mobileMenu">
+<div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-2">
+<a class="py-1" href="../index.html">Início</a>
+<a class="py-1" href="../about.html">Sobre</a>
+<a class="py-1" href="../contact.html">Contato</a>
+</div>
+</div>
+</header>
+
+<main>
+<section class="relative">
+<img alt="Cidade sustentável" class="w-full h-[52vh] object-cover" src="https://images.unsplash.com/photo-1581090700227-4c4f50b5d2b5?q=80&amp;w=2400&amp;auto=format&amp;fit=crop"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-0 right-0">
+<div class="max-w-6xl mx-auto px-4">
+<div class="max-w-2xl text-white">
+<span class="inline-block mb-2 text-xs tracking-widest uppercase">Cidades</span>
+<h1 class="text-3xl md:text-5xl font-bold leading-tight">Cidades Sustentáveis e Conceitos Correlatos</h1>
+<p class="mt-3 text-neutral-100">Soluções urbanas que integram ecologia, inclusão social e inovação tecnológica para melhorar qualidade de vida.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-10 space-y-8">
+
+<!-- Resumo -->
+<div class="bg-white dark:bg-neutral-900 rounded-2xl p-6 border border-neutral-200 dark:border-neutral-800">
+<h2 class="text-xl font-semibold mb-4">Resumo</h2>
+<p>Com mais da metade da população mundial vivendo em áreas urbanas, cresce a necessidade de soluções sustentáveis para enfrentar pobreza, mudanças climáticas, mobilidade urbana e qualidade de vida. O conceito de cidades sustentáveis reúne propostas que integram ecologia, inclusão social e inovação tecnológica, alinhadas com os Objetivos de Desenvolvimento Sustentável (ODS), especialmente o ODS 11.</p>
+</div>
+
+<!-- Principais Pontos -->
+<div class="bg-white dark:bg-neutral-900 rounded-2xl p-6 border border-neutral-200 dark:border-neutral-800">
+<h2 class="text-xl font-semibold mb-4">Principais Pontos</h2>
+<ul class="list-disc list-inside space-y-2">
+<li>ODS 11 da Agenda 2030 foca em cidades inclusivas, resilientes e sustentáveis.</li>
+<li>Governança participativa e investimentos em infraestrutura verde, transporte público e ciclovias.</li>
+<li>Integração entre desenvolvimento econômico e preservação ambiental.</li>
+<li>Promoção de inovação urbana, energia limpa e gestão eficiente de resíduos.</li>
+<li>Inclusão social, habitação digna e redução de desigualdades.</li>
+</ul>
+</div>
+
+<!-- Exemplos e Benefícios -->
+<div class="bg-white dark:bg-neutral-900 rounded-2xl p-6 border border-neutral-200 dark:border-neutral-800">
+<h2 class="text-xl font-semibold mb-4">Exemplos e Benefícios</h2>
+<ul class="list-disc list-inside space-y-2">
+<li>Cidades como Copenhague, Curitiba e Vancouver implementam transporte sustentável e planejamento urbano verde.</li>
+<li>Redução da poluição do ar e mitigação das mudanças climáticas.</li>
+<li>Melhoria da saúde pública, mobilidade eficiente e maior bem-estar da população.</li>
+<li>Fomento à economia verde e inovação tecnológica.</li>
+</ul>
+</div>
+
+<!-- Fontes -->
+<div class="bg-white dark:bg-neutral-900 rounded-2xl p-6 border border-neutral-200 dark:border-neutral-800">
+<h2 class="text-xl font-semibold mb-4">Fontes e Referências</h2>
+<ul class="list-disc list-inside space-y-2">
+<li><a href="https://www.un.org/sustainabledevelopment/cities/" target="_blank" class="text-brand-dark hover:underline">ONU – Cidades Sustentáveis (ODS 11)</a></li>
+<li><a href="https://www.worldbank.org/en/topic/urbandevelopment" target="_blank" class="text-brand-dark hover:underline">Banco Mundial – Desenvolvimento Urbano</a></li>
+<li><a href="https://www.nationalgeographic.com/environment/article/sustainable-cities" target="_blank" class="text-brand-dark hover:underline">National Geographic – Cidades Sustentáveis</a></li>
+<li><a href="https://ifrn.edu.br" target="_blank" class="text-brand-dark hover:underline">Araújo & Pessoa – IFRN, 2025</a></li>
+</ul>
+</div>
+
+</section>
+</main>
+
+<footer class="mt-16 border-t border-neutral-200 dark:border-neutral-800">
+<div class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8 text-sm">
+<div>
+<div class="font-semibold mb-2">REG</div>
+<p class="text-neutral-600 dark:text-neutral-400">Blog sobre economia ecológica, políticas públicas e cidades sustentáveis.</p>
+</div>
+<div>
+<div class="font-semibold mb-2">Navegação</div>
+<ul class="space-y-1">
+<li><a class="hover:text-brand-dark" href="../index.html">Início</a></li>
+<li><a class="hover:text-brand-dark" href="../about.html">Sobre</a></li>
+<li><a class="hover:text-brand-dark" href="../contact.html">Contato</a></li>
+</ul>
+</div>
+<div>
+<div class="font-semibold mb-2">Assine</div>
+<form action="#" class="flex gap-2">
+<input class="w-full border rounded-xl px-3 py-2 bg-white dark:bg-neutral-900" placeholder="seu@email.com" type="email"/>
+<button class="bg-brand text-white px-4 py-2 rounded-xl">OK</button>
+</form>
+</div>
+</div>
+<div class="py-6 text-center text-xs text-neutral-500 dark:text-neutral-400">© 2025 EcoEconomia. Conteúdo licenciado CC BY 4.0.</div>
+</footer>
+
+<script>
+const btn = document.getElementById('themeToggle');
+const mm = document.getElementById('mobileMenu');
+const mb = document.getElementById('menuBtn');
+const root = document.documentElement;
+const saved = localStorage.getItem('theme');
+if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  root.classList.add('dark');
+  document.body.classList.add('bg-neutral-50','dark:bg-neutral-950','text-neutral-900','dark:text-neutral-100');
+}
+btn?.addEventListener('click', () => {
+  root.classList.toggle('dark');
+  const isDark = root.classList.contains('dark');
+  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+});
+mb?.addEventListener('click', () => mm.classList.toggle('hidden'));
+</script>
+
 </body>
 </html>
-
