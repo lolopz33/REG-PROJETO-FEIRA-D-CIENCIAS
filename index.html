@@ -44,7 +44,7 @@
 </header>
 
 <main>
-<!-- Banner principal (mantido o antigo) -->
+
 <section class="relative">
 <img alt="Floresta densa ao amanhecer" class="w-full h-[52vh] object-cover" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2400&auto=format&fit=crop"/>
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -59,12 +59,12 @@
 </div>
 </section>
 
-<!-- Últimos Artigos -->
+
 <section class="max-w-6xl mx-auto px-4 py-10">
 <h2 class="text-xl font-semibold mb-6">Últimos artigos</h2>
 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-<!-- Artigo 1 -->
+
 <a class="group rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 transition-transform duration-300 ease-in-out hover:scale-105" href="posts/cidade-sustentavel.html">
 <img alt="Cidade sustentável com árvores e ciclovias" loading="lazy" class="h-44 w-full object-cover" src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80"/>
 <div class="p-4">
@@ -74,7 +74,7 @@
 </div>
 </a>
 
-<!-- Artigo 2 -->
+
 <a class="group rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 transition-transform duration-300 ease-in-out hover:scale-105" href="posts/energias-renovaveis.html">
 <img alt="Painéis solares e turbinas eólicas" loading="lazy" class="h-44 w-full object-cover" src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1200&q=80"/>
 <div class="p-4">
@@ -84,7 +84,7 @@
 </div>
 </a>
 
-<!-- Artigo 3 -->
+
 <a class="group rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 transition-transform duration-300 ease-in-out hover:scale-105" href="posts/aquecimento-global.html">
 <img alt="Geleira derretendo mostrando aquecimento global" loading="lazy" class="h-44 w-full object-cover" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"/>
 <div class="p-4">
@@ -94,7 +94,6 @@
 </div>
 </a>
 
-<!-- Artigo 4 -->
 <a class="group rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 transition-transform duration-300 ease-in-out hover:scale-105" href="posts/mobilidade-urbana.html">
 <img alt="Ciclistas em ciclovia urbana verde" loading="lazy" class="h-44 w-full object-cover" src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80"/>
 <div class="p-4">
@@ -104,7 +103,7 @@
 </div>
 </a>
 
-<!-- Artigo 5 -->
+
 <a class="group rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 transition-transform duration-300 ease-in-out hover:scale-105" href="posts/reciclagem.html">
 <img alt="Reciclagem e economia circular" loading="lazy" class="h-44 w-full object-cover" src="https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=2400&q=80"/>
 <div class="p-4">
@@ -153,24 +152,24 @@
 </footer>
 
 <script>
-// Dark/light toggle com persistência
+
 const btn = document.getElementById('themeToggle');
 const root = document.documentElement;
 const mm = document.getElementById('mobileMenu');
 const mb = document.getElementById('menuBtn');
 
-// Aplicar tema salvo
+
 if(localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)){
     root.classList.add('dark');
 }
 
-// Toggle tema
+
 btn.addEventListener('click', ()=>{
     root.classList.toggle('dark');
     localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
 });
 
-// Menu mobile
+
 mb.addEventListener('click', ()=> mm.classList.toggle('hidden'));
 </script>
 </body>
